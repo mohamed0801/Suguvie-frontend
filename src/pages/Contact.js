@@ -75,8 +75,8 @@ const Contact = () => {
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <AiOutlineHome className="fs-5" />
                       <address className="mb-0">
-                        Hno: 277, Near village chopal, Mandaura, Sonipat, 20
-                        Haryana
+                        Hno: 123, Near Central Market, Bamako, District de
+                        Bamako, Mali
                       </address>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">

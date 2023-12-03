@@ -125,17 +125,47 @@ const Header = () => {
                     >
                       <li>
                         <Link className="dropdown-item text-white" to=" ">
-                          Action
+                          Phone & Tablet
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to=" ">
-                          Another action
+                          Tv & Hi Tech
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to=" ">
-                          Something else here
+                          Computer science
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to=" ">
+                          Video games & Consoles
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to=" ">
+                          Home, kitchen & office
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to=" ">
+                          Home appliance
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to=" ">
+                          Clothing & shoes
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to=" ">
+                          Accessories
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to=" ">
+                          Sports
                         </Link>
                       </li>
                     </ul>
@@ -149,8 +179,8 @@ const Header = () => {
                     <NavLink className="text-white" to="/store">
                       Our Store
                     </NavLink>
-                    <NavLink className="text-white" to="/blogs">
-                      Blogs
+                    <NavLink className="text-white" to="/categories">
+                      Categories
                     </NavLink>
                     <NavLink className="text-white" to="/contact">
                       Contact

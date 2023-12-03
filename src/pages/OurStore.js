@@ -19,11 +19,15 @@ const OurStore = () => {
               <h3 className="filter-title">Shop By Categories</h3>
               <div>
                 <ul className="ps-0">
-                  <li>Watch</li>
-                  <li>Tv</li>
-                  <li>Camera</li>
-                  <li>Laptop</li>
-                  <li>Smartphone</li>
+                  <li>Phone & Tablet </li>
+                  <li>Tv & Hi Tech </li>
+                  <li>Computer science </li>
+                  <li>Home, kitchen & office </li>
+                  <li>Home appliance </li>
+                  <li>Clothing & shoes </li>
+                  <li>Accessories </li>
+                  <li>Video games & Consoles </li>
+                  <li>Sports </li>
                 </ul>
               </div>
             </div>

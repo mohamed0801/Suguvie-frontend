@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
-import BlogCard from "../components/BlogCard";
+import CategorieCard from "../components/CategorieCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
 import Meta from "../components/Meta";
@@ -24,7 +24,9 @@ const Home = () => {
                 <h4>SUPERCHARGED FOR PROS.</h4>
                 <h5>Iphone 13 Pro Max. </h5>
                 <p>From $799.00 with 10% discount</p>
-                <Link className="button">BUY NOW</Link>
+                <Link to="/store" className="button">
+                  BUY NOW
+                </Link>
               </div>
             </div>
           </div>
@@ -303,24 +305,24 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container class1="blog-wrapper py-5 home-wrapper-2">
+      <Container class1="categorie-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
-            <h3 className="section-heading"> Our Latest Blogs</h3>
+            <h3 className="section-heading"> Our Latest Categories</h3>
           </div>
         </div>
         <div className="row">
           <div className="col-3">
-            <BlogCard />
+            <CategorieCard />
           </div>
           <div className="col-3">
-            <BlogCard />
+            <CategorieCard />
           </div>
           <div className="col-3">
-            <BlogCard />
+            <CategorieCard />
           </div>
           <div className="col-3">
-            <BlogCard />
+            <CategorieCard />
           </div>
         </div>
       </Container>

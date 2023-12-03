@@ -44,8 +44,9 @@ const Footer = () => {
               <h4 className="text-white mb-4">Contact Us</h4>
               <div>
                 <address className="text-white fs-6">
-                  Hno : 277 Near Vill chopal, <br /> Sonipat, Haryana <br />
-                  PinCode: 131103
+                  Hno: 123, Near Central Market, <br /> Bamako, District de
+                  Bamako, Mali <br />
+                  PinCode: 95101
                 </address>
                 <a
                   href="tel:+223 78475906"
@@ -96,8 +97,8 @@ const Footer = () => {
                 >
                   Terms & Conditions
                 </Link>
-                <Link className="text-white py-2 mb-1" to="blogs">
-                  Blogs
+                <Link className="text-white py-2 mb-1" to="categories">
+                  Categories
                 </Link>
               </div>
             </div>
@@ -119,19 +120,16 @@ const Footer = () => {
               <h4 className="text-white mb-4"> Quick Links</h4>
               <div className="footer-links d-flex flex-column">
                 <Link className="text-white py-2 mb-1" to="">
-                  Laptops
+                  Phone & Tablet
                 </Link>
                 <Link className="text-white py-2 mb-1" to="">
-                  Headphones
+                  Computer science
                 </Link>
                 <Link className="text-white py-2 mb-1" to="">
-                  Tablets
+                  Clothing & shoes
                 </Link>
                 <Link className="text-white py-2 mb-1" to="">
-                  Watch
-                </Link>
-                <Link className="text-white py-2 mb-1" to="">
-                  Accessoires
+                  Accessories
                 </Link>
               </div>
             </div>
